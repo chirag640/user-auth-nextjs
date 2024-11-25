@@ -13,7 +13,7 @@ export default function DashboardPage() {
 
   useEffect(() => {
     fetchUserData()
-  }, [])
+  })
 
   const fetchUserData = async () => {
     try {
